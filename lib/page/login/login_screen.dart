@@ -120,10 +120,8 @@ class LoginScreen extends BaseStatelessWidget {
   _requestLogin() async {
     String email = _emailController.text;
     String password = _passwordController.text;
-    // Get.find<LoginController>()
-    //     .login(email: email, password: password);
+    Get.find<LoginController>()
+        .login(email: email, password: password);
   }
 
-  _login() async {
-  }
 }

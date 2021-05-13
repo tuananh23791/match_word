@@ -9,7 +9,7 @@ import 'login_controller.dart';
 Widget widgetRegister() {
   return GestureDetector(
     onTap: () {
-      Get.offAllNamed(REGISTER_SCREEN);
+      Get.toNamed(REGISTER_SCREEN);
     },
     child: RichText(
         text: TextSpan(children: [
